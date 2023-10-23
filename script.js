@@ -69,6 +69,12 @@ search.addEventListener('click', () => {
                     body.style.backgroundSize = 'cover';
                     break;
 
+                case 'Smoke':
+                    image.src = 'haze.png';
+                    body.style.background = 'url(Haze.gif) no-repeat center center fixed';
+                    body.style.backgroundSize = 'cover';
+                    break;
+
                 default:
                     image.src = '';
                     body.style.background = '#06283D';
